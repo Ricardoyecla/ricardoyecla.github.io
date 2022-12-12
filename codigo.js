@@ -1,16 +1,16 @@
 
 const temas = [
-    { tema:01, estado: 'excelente', numero:0 , nombre:'Fundamentación psicológica y pedagógica del currículo. Aportaciones de la Psicología y Ciencias de la Educación al diseño curricular en sus distintos niveles.'},
+    { tema:01, estado: 'excelente', numero:1 , nombre:'Fundamentación psicológica y pedagógica del currículo. Aportaciones de la Psicología y Ciencias de la Educación al diseño curricular en sus distintos niveles.'},
     { tema:02, estado: 'satisfactorio', numero:0 , nombre:'Las capacidades como objetivo de la educación. Sus distintos aspectos: valor intrínseco, valor propedéutico, carácter funcional en relación con la vida cotidiana.'},
-    { tema:03, estado: 'mejorable', numero:0 , nombre:'Procesos de aprendizaje: condicionamiento, aprendizaje por observación, aprendizajes superiores, el procesamiento de la información, el papel de la atención y la memoria, las habilidades metacognitivas.'},
-    { tema:04, estado: 'insuficiente', numero:0 , nombre:'El proceso de enseñanza y aprendizaje como proceso de construcción y de interacción: elementos interpersonales y elementos didácticos. El papel mediador del profesor.'},
-    { tema:05, estado: 'insuficiente', numero:0 , nombre:'Principios didácticos en el proceso de enseñanza y aprendizaje. Aprendizaje significativo. El papel de las capacidades y conocimientos previos. La personalización de los procesos de enseñanza-aprendizaje.'},
+    { tema:03, estado: 'mejorable', numero:2 , nombre:'Procesos de aprendizaje: condicionamiento, aprendizaje por observación, aprendizajes superiores, el procesamiento de la información, el papel de la atención y la memoria, las habilidades metacognitivas.'},
+    { tema:04, estado: 'excelente', numero:0 , nombre:'El proceso de enseñanza y aprendizaje como proceso de construcción y de interacción: elementos interpersonales y elementos didácticos. El papel mediador del profesor.'},
+    { tema:05, estado: 'satisfactorio', numero:0 , nombre:'Principios didácticos en el proceso de enseñanza y aprendizaje. Aprendizaje significativo. El papel de las capacidades y conocimientos previos. La personalización de los procesos de enseñanza-aprendizaje.'},
     { tema:06, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Infantil (I): desarrollo social, motor y afectivo. Implicaciones educativas.'},
-    { tema:07, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Infantil (II): lenguaje y comunicación; el pensamiento percepto-motor. Implicaciones educativas.'},
-    { tema:08, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Primaria (I): desarrollo social, motor y afectivo. Implicaciones educativas.'},
-    { tema:09, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Primaria (II): lenguaje y comunicación; el pensamiento concreto. Implicaciones educativas.'},
-    { tema:10, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Secundaria (I): Adolescencia y juventud. Cambios que acompañan a la pubertad. Implicaciones educativas.'},
-    { tema:11, estado: 'insuficiente', numero:0 , nombre:'El desarrollo en la edad de la Educación Secundaria (II): desarrollo cognitivo; el pensamiento formal abstracto. Implicaciones educativas.'},
+    { tema:07, estado: 'satisfactorio', numero:0 , nombre:'El desarrollo en la edad de la Educación Infantil (II): lenguaje y comunicación; el pensamiento percepto-motor. Implicaciones educativas.'},
+    { tema:08, estado: 'satisfactorio', numero:0 , nombre:'El desarrollo en la edad de la Educación Primaria (I): desarrollo social, motor y afectivo. Implicaciones educativas.'},
+    { tema:09, estado: 'satisfactorio', numero:0 , nombre:'El desarrollo en la edad de la Educación Primaria (II): lenguaje y comunicación; el pensamiento concreto. Implicaciones educativas.'},
+    { tema:10, estado: 'satisfactorio', numero:0 , nombre:'El desarrollo en la edad de la Educación Secundaria (I): Adolescencia y juventud. Cambios que acompañan a la pubertad. Implicaciones educativas.'},
+    { tema:11, estado: 'satisfactorio', numero:0 , nombre:'El desarrollo en la edad de la Educación Secundaria (II): desarrollo cognitivo; el pensamiento formal abstracto. Implicaciones educativas.'},
     { tema:12, estado: 'insuficiente', numero:0 , nombre:'Socialización y aprendizaje. La escuela como institución socializadora: la transmisión en ella de pautas sociales y valores. Tradición y patrimonio cultural en la transmisión educativa.'},
     { tema:13, estado: 'insuficiente', numero:0 , nombre:'La dimensión moral en la educación. Actitudes y valores morales a través de las áreas del currículo. La educación del razonamiento y del juicio moral.'},
     { tema:14, estado: 'insuficiente', numero:0 , nombre:'Educación para la convivencia y para la paz. La educación y el desarrollo de actitudes cooperativas, democráticas y cívicas.'},
@@ -69,6 +69,8 @@ const temas = [
     { tema:67, estado: 'insuficiente', numero:0 , nombre:'La colaboración de maestros y padres de alumnos con necesidades educativas especiales. Programas educativos formales para desarrollar en el hogar.'},
     { tema:68, estado: 'insuficiente', numero:0 , nombre:'La escuela en su entorno: relación con otras instituciones sociales, con la ciudad. Peculiaridades de la escuela rural.'}
   ]
-
+  
+  
+  
 
   
