@@ -17,11 +17,39 @@
 </head>
 
 <body>
+    <script>
+        var n_execelente, n_satisfactorio, n_mejorable;
+        
+        n_execelente=temas.reduce((acc,cur)=> {
+                if (cur.estado=='excelente')
+                    acc++
+                return acc
+        },0)
+        document.write(Math.round(n_execelente/68*100))
+        n_satisfactorio=temas.reduce((acc,cur)=> {
+                if (cur.estado=='satistactorio')
+                    acc++
+                return acc
+        },0)
+        document.write(Math.round(n_satisfactorio/68*100))
+        n_mejorable=temas.reduce((acc,cur)=> {
+                if (cur.estado=='mejorable')
+                    acc++
+                return acc
+        },0)
+        document.write(Math.round(n_mejorable/68*100))
+    </script>
     <div class="container-fluid ">
-        <div class="row">
+        <div class="row my-2">
             <div class="col-4"></div>
-            <div class="col-4 border border-1 border-primary">
-            hola
+            <div class="col-4  ">
+                <div class="progress">
+                    <script>
+                        document.write(`<div class="progress-bar bg-success" role="progressbar" style="width: ${n_execelente}%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>`);
+                        document.write(`<div class="progress-bar bg-primary" role="progressbar" style="width: ${n_satisfactorio}%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>`);
+                        document.write(`<div class="progress-bar bg-info" role="progressbar" style="width: ${n_mejorable}%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>`);
+                    </script>  
+                </div>
         </div>
     </div>
     <div class="row">
