@@ -1,0 +1,118 @@
+/* eXeLearning Style Designer Compatible Style */
+body{padding:0;text-align:center}
+#content{width:100%;margin:0 auto;text-align:left;position:relative;border-style:solid;border-width:0}
+#main-wrapper{padding-bottom:1.5em;width:100%;*width:auto}
+/* * is for IE6 and IE7 */#main{padding:20px 40px 30px 320px;height:auto!important;height:200px;min-height:200px;*padding-left:0}
+.no-nav #main-wrapper{width:100%}
+.no-nav #main{padding:20px 20px 0 20px}
+#header,#emptyHeader{border-top-width:0;border-right-width:0;border-left-width:0}
+#headerContent{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;min-height:1.1em}
+#nodeDecoration{background:none;padding:0;border:none;margin:20px 0;height:auto;min-height:0}
+#nodeTitle{font-weight:300}
+.iDevice_wrapper{margin-top:-10px}
+/* Menú */#siteNav{width:280px;float:left;margin-right:40px}
+#siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
+#siteNav .other-section{display:none}
+#siteNav a{display:block;padding:8px 10px 8px 20px;border-width:0 0 1px 0;border-style:solid}
+#siteNav .active{font-weight:bold;text-decoration:underline}
+#siteNav ul ul a{padding-left:35px;font-size:.95em}
+#siteNav ul ul ul a{padding-left:60px}
+#siteNav .daddy span{display:none}
+/* IE6 */* html #siteNav a{display:inline-block;width:250px}
+* html #siteNav ul ul a{width:235px}
+* html #siteNav ul ul ul a{width:190px}
+* html #main{padding:20px 20px 0 0}
+#siteFooter{padding:0 20px 20px 20px;border:0}
+/* Pagination */.pagination{text-align:right;border-top:1px solid;font-size:.95em;padding:20px 0}
+.pagination .sep{display:none}
+.pagination a{display:inline-block;padding:5px 10px;border-radius:5px;margin-left:20px}
+.pagination a:hover,.pagination a:focus{text-decoration:none}
+#topPagination{position:absolute;top:0;right:20px}
+#topPagination .pagination{border:none}
+#bottomPagination{clear:both}
+#bottomPagination a{margin:0 20px 0 0}
+.page-counter{padding:5px 0;display:inline-block}
+/* Autoclear */#content{overflow:auto}
+/* Hide/Show/Skip navigation */#nav-toggler{margin:0;position:absolute;top:20px;left:20px;font-size:.95em}
+#nav-toggler a,#skipNav a{padding:5px 10px;border-radius:5px}
+#nav-toggler a{display:block}
+#nav-toggler a:hover{text-decoration:none}
+#skipNav{z-index:100px;padding-top:15px;text-align:center}
+/* Search bar */#exe-client-search-text{border-top-left-radius:5px;border-bottom-left-radius:5px}
+#exe-client-search-submit{border-top-right-radius:5px;border-bottom-right-radius:5px}
+@media screen and (max-width: 980px) {	.exe-web-site #content{width:100%;border:0;box-shadow:none}
+	#main{padding:20px 30px 0 280px}
+	#siteNav{width:250px;margin-right:30px}
+}
+@media all and (max-width: 700px) {	#headerContent{font-size:.7em;white-space:normal;padding-bottom:.5em}
+	#siteNav{float:none;width:100%;padding:0}
+	#siteNav{line-height:1.5em;margin-bottom:15px}
+	#main-wrapper{width:100%;float:none}
+    	#main,.no-nav #main{padding:10px 20px 0 20px}
+    	#content .exe-col{float:none;width:100%;padding:0}
+	#bottomPagination{text-align:center;height:35px;position:relative}
+	#bottomPagination .prev{position:absolute;left:20px}
+	#bottomPagination .next{position:absolute;right:0}
+	#siteNav{border-top:1px solid}
+}
+@media print{	#siteNav,#nav-toggler,.noprt,.toggle-idevice{display:none}
+	body #main,body.no-nav #main{padding:20px 0}
+	body #content{background:#FFF}
+	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
+}
+/* eXeLearning Style Designer */#content{/*pageWidth*/width:75%;/*wrapperShadowColor*/box-shadow:0 0 15px 0 #b2b2b2;/*contentBGColor*/background-color:#ffffff;}
+.pagination a,#nav-toggler a,#skipNav a{/*nav2BGColor*/background-color:#78d4e8;/*nav2AColor*/color:#ffffff;}
+.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{/*nav2HoverBGColor*/background-color:#6cb47c;}
+body{/*bodyBGColor*/background-color:#f5fbfd;/*bodyBGURL*/background-image:url(_style_bg%203.png);/*bodyBGRepeat*/background-repeat:repeat;/*bodyBGPosition*/background-position:50% 50%;}
+#topPagination .page-counter{color:#157e9d;}
+#siteNav,#siteNav a{/*navBGColor*/background-color:#ffeebc;/*navAColor*/color:#191919;/*navBorderColor*/border-color:#ffffff;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav,#siteNav ul{background-color:#ffeebc;border-color:#ffffff;}
+#siteNav li{background-color:#ffeebc;}
+}
+#siteNav a:hover,#siteNav a:focus,#siteNav a.active{/*navHoverBGColor*/background-color:#d3e8e0;/*navAHoverColor*/color:#f5fbfd;}
+@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav li:hover,#siteNav li.sfhover{background-color:#d3e8e0;}
+}
+.pagination{border-color:#e3e3e3;}
+#bottomPagination .page-counter{color:#000000;}
+#bottomPagination{background-color:#29b8dc;}
+/* eXeLearning Style Designer (custom CSS) */
+#header[style]{background-position:50% 62px;background-size:auto 70px;padding-top:90px;background-repeat:no-repeat}
+.pagination .print-page{display:none}
+#siteNav a:hover,#siteNav a:focus{background-color:#fbb60a}
+#siteNav a.active{background:#fbb60a;color:#7F7F7F}
+#nodeTitle{color:#04abd3}
+#siteNav .package-link,#siteNav .package-link.active{background:#f2f2f2;color:#04abd3;font-weight:bold}
+
+#emBreadcrumb ul{margin:0;padding:10px 20px 11px 20px;list-style:none;background-color:#fff;color:#777;font-size:.8em}
+#emBreadcrumb ul li{display:inline;position:relative}
+#emBreadcrumb ul li+li:before{padding:5px;content:"/\00a0"}
+#emBreadcrumb a,#emBreadcrumb strong{color:#444;text-decoration:none;white-space:nowrap;display:inline-block}
+#emBreadcrumb a{color:#04abd3}
+#emBreadcrumb ul li a:hover,#emBreadcrumb ul li a:focus{color:#555;text-decoration:underline} 
+
+body #emCommonFooter{border-top:0}
+
+#exe-client-search-submit{position:absolute;clip:rect(1px, 1px, 1px, 1px)}
+@media all and (max-width: 700px){
+	.no-nav #exe-client-search{margin-bottom:3em}
+}
+@media all and (min-width: 700px){
+	#exe-client-search-text{min-width:350px}
+}
+#exe-node-0 #nodeDecoration{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
+
+/* eXe < 2.1 */
+.iDevice a,#siteFooter a,#packageLicense a,.toggle-idevice a{text-decoration:underline}
+.iDevice a:hover,#siteFooter a:hover,#packageLicense a:hover,.toggle-idevice a:hover{text-decoration:none}
+/* Licenses */
+#packageLicense{text-align:left;font-size:.85em;padding:0 20px;color:#555;line-height:1em;margin:2.5em 0 7px 0;background:#F5F5F5;border:1px solid #F0F0F0;border-radius:2px}
+#packageLicense p{margin:20px 0}
+#packageLicense a{color:#444;text-decoration:underline}
+#packageLicense.propietary{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
+#packageLicense.cc{padding:0 20px 0 110px;background:#F5F5F5 url(_cedec_licenses.gif) no-repeat 20px 5px}
+#packageLicense.cc-by-sa{background-position:20px -95px}
+#packageLicense.cc-by-nd{background-position:20px -195px}
+#packageLicense.cc-by-nc{background-position:20px -295px}
+#packageLicense.cc-by-nc-sa{background-position:20px -395px}
+#packageLicense.cc-by-nc-nd{background-position:20px -495px}
+#packageLicense.cc-0{background-position:20px -595px}
